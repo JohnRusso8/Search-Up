@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7143683228401D8100D6A98E /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7143683128401D8100D6A98E /* EventDetails.swift */; };
+		714368352840258700D6A98E /* URLImageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714368342840258700D6A98E /* URLImageDetail.swift */; };
+		71436837284025B900D6A98E /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71436836284025B900D6A98E /* URLImage.swift */; };
 		71CF512D283EDDB800D0EF36 /* Search_UpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF512C283EDDB800D0EF36 /* Search_UpApp.swift */; };
 		71CF512F283EDDB800D0EF36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF512E283EDDB800D0EF36 /* ContentView.swift */; };
 		71CF5131283EDDBC00D0EF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CF5130283EDDBC00D0EF36 /* Assets.xcassets */; };
 		71CF5134283EDDBC00D0EF36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CF5133283EDDBC00D0EF36 /* Preview Assets.xcassets */; };
+		71CF513B283EE10A00D0EF36 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF513A283EE10A00D0EF36 /* ViewModel.swift */; };
+		71CF513F283FA4EE00D0EF36 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF513E283FA4ED00D0EF36 /* SearchBar.swift */; };
+		71CF5142283FAA6B00D0EF36 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF5141283FAA6B00D0EF36 /* UIApplication.swift */; };
+		71CF5144283FBC2B00D0EF36 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF5143283FBC2B00D0EF36 /* EventCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7143683128401D8100D6A98E /* EventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
+		714368342840258700D6A98E /* URLImageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageDetail.swift; sourceTree = "<group>"; };
+		71436836284025B900D6A98E /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		71CF5129283EDDB800D0EF36 /* Search Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Search Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CF512C283EDDB800D0EF36 /* Search_UpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_UpApp.swift; sourceTree = "<group>"; };
 		71CF512E283EDDB800D0EF36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71CF5130283EDDBC00D0EF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71CF5133283EDDBC00D0EF36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71CF513A283EE10A00D0EF36 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		71CF513E283FA4ED00D0EF36 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		71CF5141283FAA6B00D0EF36 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		71CF5143283FBC2B00D0EF36 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		714368332840257000D6A98E /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				714368342840258700D6A98E /* URLImageDetail.swift */,
+				71436836284025B900D6A98E /* URLImage.swift */,
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
 		71CF5120283EDDB800D0EF36 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +74,14 @@
 		71CF512B283EDDB800D0EF36 /* Search Up */ = {
 			isa = PBXGroup;
 			children = (
+				714368332840257000D6A98E /* Helper Files */,
+				71CF5140283FAA4E00D0EF36 /* Extensions */,
 				71CF512C283EDDB800D0EF36 /* Search_UpApp.swift */,
 				71CF512E283EDDB800D0EF36 /* ContentView.swift */,
+				71CF5143283FBC2B00D0EF36 /* EventCardView.swift */,
+				71CF513E283FA4ED00D0EF36 /* SearchBar.swift */,
+				7143683128401D8100D6A98E /* EventDetails.swift */,
+				71CF513A283EE10A00D0EF36 /* ViewModel.swift */,
 				71CF5130283EDDBC00D0EF36 /* Assets.xcassets */,
 				71CF5132283EDDBC00D0EF36 /* Preview Content */,
 			);
@@ -65,6 +94,14 @@
 				71CF5133283EDDBC00D0EF36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71CF5140283FAA4E00D0EF36 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71CF5141283FAA6B00D0EF36 /* UIApplication.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714368352840258700D6A98E /* URLImageDetail.swift in Sources */,
+				71CF5144283FBC2B00D0EF36 /* EventCardView.swift in Sources */,
+				71CF5142283FAA6B00D0EF36 /* UIApplication.swift in Sources */,
+				71436837284025B900D6A98E /* URLImage.swift in Sources */,
 				71CF512F283EDDB800D0EF36 /* ContentView.swift in Sources */,
+				71CF513F283FA4EE00D0EF36 /* SearchBar.swift in Sources */,
+				7143683228401D8100D6A98E /* EventDetails.swift in Sources */,
+				71CF513B283EE10A00D0EF36 /* ViewModel.swift in Sources */,
 				71CF512D283EDDB800D0EF36 /* Search_UpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
