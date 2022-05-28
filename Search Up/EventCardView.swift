@@ -55,10 +55,10 @@ struct EventCardView: View {
                                         .foregroundColor(.black)
                                     Text("\(city), \(state)")
                                         .font(.caption)
-                                        .foregroundColor(.secondary)
+                                        .foregroundColor(Color.gray)
                                     Text(formateDate(dateString: date))
                                         .font(.caption)
-                                        .foregroundColor(.secondary)
+                                        .foregroundColor(Color.gray)
                                 }
                                 .padding()
                                 
